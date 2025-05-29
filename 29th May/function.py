@@ -98,4 +98,4 @@ try:
 except ZeroDivisionError:
 	print("Cannot Divisible by zero")
 except Exception as e:
-	print("Unexpected Error")
+	print("Unexpected Error",e)
